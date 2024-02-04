@@ -14,6 +14,7 @@ public class number_game {
             int user_guess;
             int attempts = 1;
             int max_attempts;
+            @SuppressWarnings("resource")
             Scanner sc = new Scanner(System.in);
             System.out.print("Enter the number of attempts you want : ");
             max_attempts = sc.nextInt();
